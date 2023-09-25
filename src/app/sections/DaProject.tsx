@@ -437,7 +437,7 @@ export default function DaProject() {
                   experience. The inspiration comes from NewJeans whose music
                   and style I love. My intention with the design is to make it
                   beautifully chaotic with metallic accent. My other inspiration
-                  is also Apple's retro design.
+                  is also Apple&apos;s retro design.
                 </p>
               </div>
               <div className="col-span-3 mt-4">
