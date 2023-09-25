@@ -262,10 +262,10 @@ export default function DaProject() {
               <div className="col-span-3 mt-4">
                 <p>Description:</p>
                 <p>
-                  This prototye showcases Kampoeng Koena's unique features and
-                  attractions as newly founded tourism village in Malang-East
-                  Java, making it easy for visitors to plan their trip and learn
-                  about the village.
+                  This prototye showcases Kampoeng Koena&apos;s unique features
+                  and attractions as newly founded tourism village in
+                  Malang-East Java, making it easy for visitors to plan their
+                  trip and learn about the village.
                 </p>
               </div>
               <div className="col-span-3 mt-4">
