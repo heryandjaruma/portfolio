@@ -3,7 +3,7 @@ import { Grotesk400, Grotesk700, Ubuntu } from "../utils/fonts";
 
 export default function DaExperience() {
   return (
-    <div className="bg-gradient-to-b to-njblue-200 from-gray-50">
+    <div className="bg-gradient-to-b to-njblue-200 from-gray-50 pb-14">
       <div className="relative w-full">
         <Image
           src="/assets/image/ring_blue.png"

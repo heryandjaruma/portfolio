@@ -1,5 +1,14 @@
 import Image from "next/image";
-import { IBMMono500 } from "../utils/fonts";
+import {
+  Alagard,
+  Bello,
+  FairfaxItalic,
+  Genty,
+  Grotesk400,
+  HelveticaRoman,
+  IBMMono500,
+  Mushy,
+} from "../utils/fonts";
 
 export default function Me() {
   return (
@@ -53,13 +62,35 @@ export default function Me() {
         <div></div>
         <div className="col-span-5">
           <div
-            className={`${IBMMono500.className} text-6xl -translate-y-24 -translate-x-3 relative select-none`}
+            className={`${IBMMono500.className} text-6xl -translate-y-28 -translate-x-3 relative select-none`}
           >
-            <p className="absolute -translate-y-1 translate-x-1 text-white leading-snug">
-              Heryan Djaruma
+            <p className="absolute -translate-y-1 translate-x-0.5 text-white leading-none">
+              <span className={Genty.className}>H</span>
+              <span className={HelveticaRoman.className}>e</span>
+              <span className={HelveticaRoman.className}>ry</span>
+              <span className={Alagard.className}>a</span>
+              <span className={Alagard.className}>n</span>{" "}
+              <span className={HelveticaRoman.className}>D</span>
+              <span className={HelveticaRoman.className}>j</span>
+              <span className={FairfaxItalic.className}>a</span>
+              <span className={Bello.className}>r</span>
+              <span className={HelveticaRoman.className}>u</span>
+              <span className={Alagard.className}>m</span>
+              <span className={Grotesk400.className}>a</span>
             </p>
-            <p className="absolute text-njblue-700 leading-snug">
-              Heryan Djaruma
+            <p className="absolute text-njblue-700 leading-none">
+              <span className={Genty.className}>H</span>
+              <span className={HelveticaRoman.className}>e</span>
+              <span className={HelveticaRoman.className}>ry</span>
+              <span className={Alagard.className}>a</span>
+              <span className={Alagard.className}>n</span>{" "}
+              <span className={HelveticaRoman.className}>D</span>
+              <span className={HelveticaRoman.className}>j</span>
+              <span className={FairfaxItalic.className}>a</span>
+              <span className={Bello.className}>r</span>
+              <span className={HelveticaRoman.className}>u</span>
+              <span className={Alagard.className}>m</span>
+              <span className={Grotesk400.className}>a</span>
             </p>
           </div>
         </div>

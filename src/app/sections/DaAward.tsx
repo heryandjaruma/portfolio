@@ -13,21 +13,21 @@ export default function DaAward() {
             Award
           </p>
           <p className={`text-white text-6xl absolute top-4`}>Award</p>
-          <p className={`text-white text-6xl absolute top-8 opacity-10 left-1`}>
+          <p className={`text-white text-6xl absolute top-8 opacity-25 left-1`}>
             Award
           </p>
         </div>
       </div>
       <div className="relative h-16">
-        <Image
+        {/* <Image
           src={`/assets/image/camera_retro.png`}
           width={700}
           height={700}
           alt="camera_retro"
           className="w-8 absolute right-4 rotate-6 -bottom-4"
-        />
+        /> */}
         <Image
-          src={`/assets/image/bubble_pink.png`}
+          src={`/assets/image/bubble_teal.png`}
           width={700}
           height={700}
           alt="bubble"
@@ -35,20 +35,20 @@ export default function DaAward() {
           className="w-5 absolute right-56 bottom-3"
         />
         <Image
-          src={`/assets/image/dot_pink.png`}
+          src={`/assets/image/dot_teal.png`}
           width={700}
           height={700}
           alt="bubble"
           priority
-          className="w-2 absolute right-24 bottom-2"
+          className="w-2 absolute right-24 -bottom-2"
         />
         <Image
-          src={`/assets/image/star_pink.png`}
+          src={`/assets/image/star_teal.png`}
           width={700}
           height={700}
           alt="bubble"
           priority
-          className="w-8 absolute right-16 bottom-16"
+          className="w-8 absolute right-16 bottom-20"
         />
       </div>
       <div className={`${SansFrans.className} text-white`}>
@@ -223,7 +223,7 @@ export default function DaAward() {
               <p
                 className={`w-full text-end text-xs ${SansFransBold.className} text-gray-400`}
               >
-                Received 4/23
+                Received 4/21
               </p>
               <Image
                 src={`/assets/image/bubble_tail.png`}

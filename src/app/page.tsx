@@ -1,10 +1,14 @@
 import {
   Alagard,
+  Bello,
   Cotton,
   EBGaramond400,
+  FairfaxItalic,
+  Genty,
   Gliker,
   Grotesk400,
   Grotesk700,
+  HelveticaRoman,
   IBMMono500,
   Mushy,
   Ninety,
@@ -23,13 +27,14 @@ import ProjectTitle from "./sections/ProjectTitle";
 import DaProject from "./sections/DaProject";
 import DaExperience from "./sections/DaExperience";
 import DaAward from "./sections/DaAward";
+import Intro from "./sections/Intro";
 
 export default function Home() {
   return (
     <main className="">
       <Me />
-      <div className="h-24">&nbsp;</div>
-      <MeLink />
+      <div className="h-14">&nbsp;</div>
+      <Intro />
       <ToSection />
       <ProjectTitle />
       <div className="h-44 bg-gradient-to-t from-gray-50 to-white" id="project">

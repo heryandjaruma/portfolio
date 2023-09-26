@@ -16,6 +16,22 @@ export default function ProjectTitle() {
           />
         </div>
         <Image
+          src={`/assets/image/square_teal.png`}
+          width={700}
+          height={700}
+          alt="bubble"
+          priority
+          className="w-5 absolute right-56 -bottom-10"
+        />
+        <Image
+          src={`/assets/image/star_teal.png`}
+          width={700}
+          height={700}
+          alt="bubble"
+          priority
+          className="w-6 absolute right-44 -bottom-32"
+        />
+        <Image
           src={`/assets/image/star_plastic1.png`}
           width={500}
           height={500}
