@@ -28,7 +28,7 @@ export default function Home() {
       <MeLink />
       <ToSection />
       <ProjectTitle />
-      <div className="h-44 bg-gray-50" id="project">
+      <div className="h-44 bg-gradient-to-t from-gray-50 to-white" id="project">
         &nbsp;
       </div>
       <DaProject />

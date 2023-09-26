@@ -4,6 +4,36 @@ import { Grotesk400, Grotesk700, Ubuntu } from "../utils/fonts";
 export default function DaExperience() {
   return (
     <div className="bg-gradient-to-b to-njblue-200 from-gray-50">
+      <div className="relative w-full">
+        <Image
+          src="/assets/image/ring_blue.png"
+          width={700}
+          height={700}
+          alt="ring_blue"
+          className="absolute overflow-clip translate-y-60 select-none pointer-events-none w-full opacity-10"
+        />
+        <Image
+          src="/assets/image/ring_blue.png"
+          width={700}
+          height={700}
+          alt="ring_blue"
+          className="absolute overflow-clip translate-y-96 select-none pointer-events-none w-full opacity-10"
+        />
+        <Image
+          src="/assets/image/smoky_blue.png"
+          width={700}
+          height={700}
+          alt="ring_blue"
+          className="absolute overflow-clip translate-y-24 select-none pointer-events-none w-full opacity-25"
+        />
+        <Image
+          src="/assets/image/smoky_blue.png"
+          width={700}
+          height={700}
+          alt="ring_blue"
+          className="absolute overflow-clip translate-y-72 select-none pointer-events-none w-full opacity-10"
+        />
+      </div>
       <div className=" text-white grid grid-cols-5 px-4">
         <Image
           src="/assets/image/experience_glow.png"
@@ -11,6 +41,7 @@ export default function DaExperience() {
           height={500}
           alt="experience_title"
           className="w-full -rotate-12 col-start-1 col-span-4 -translate-y-14 select-none pointer-events-none"
+          priority
         />
       </div>
       <div className="gap-y-2 px-8">

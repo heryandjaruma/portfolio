@@ -4,7 +4,7 @@ import { Village } from "../utils/fonts";
 export default function ToSection() {
   return (
     <div
-      className={`grid grid-cols-1 ${Village.className} text-8xl text-white mt-14 place-items-center`}
+      className={`grid grid-cols-1 ${Village.className} text-8xl text-white mt-14 place-items-center `}
     >
       <a
         className={`grid grid-cols-5 place-items-center bg-njblue-500 h-32 hover:text-neon-500`}
