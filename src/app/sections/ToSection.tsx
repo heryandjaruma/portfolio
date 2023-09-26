@@ -38,8 +38,9 @@ export default function ToSection() {
         <div className={`col-span-5`}>Experience</div>
       </a>
 
-      <div
+      <a
         className={`grid grid-cols-5 place-items-center bg-njblue-500 h-32 mt-16 hover:text-neon-500`}
+        href="#award"
       >
         <div className={`col-span-3`}>Award</div>
         <div className={`col-span-2 relative`}>
@@ -51,7 +52,7 @@ export default function ToSection() {
             className="select-none pointer-events-none object-contain h-32 -translate-y-10"
           />
         </div>
-      </div>
+      </a>
     </div>
   );
 }
