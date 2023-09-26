@@ -32,7 +32,7 @@ import Intro from "./sections/Intro";
 
 export default function Home() {
   return (
-    <main className="container mx-auto">
+    <main className="sm:container sm:mx-auto w-full">
       <div className="grid lg:grid-cols-2 place-items-center">
         <Me />
         <div className="h-14 lg:hidden">&nbsp;</div>
