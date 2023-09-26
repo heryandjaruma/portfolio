@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Cotton, SansFrans, SansFransBold } from "../utils/fonts";
 
-export default function () {
+export default function DaAward() {
   return (
     <div className="bg-njblue-500">
       <div className="grid grid-cols-3 place-items-center">
