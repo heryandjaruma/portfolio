@@ -4,6 +4,40 @@ import { IBMMono500 } from "../utils/fonts";
 export default function Me() {
   return (
     <section className="">
+      <div className="relative max-w-md mx-auto">
+        <Image
+          src="/assets/image/square_teal.png"
+          width={200}
+          height={100}
+          alt="star"
+          priority
+          className="absolute w-9 top-36 left-8"
+        />
+        <Image
+          src="/assets/image/star_teal.png"
+          width={200}
+          height={100}
+          alt="star"
+          priority
+          className="absolute w-6 top-8 left-28"
+        />
+        <Image
+          src="/assets/image/bubble_teal.png"
+          width={200}
+          height={100}
+          alt="star"
+          priority
+          className="absolute w-6 top-12 right-28"
+        />
+        <Image
+          src="/assets/image/dot_teal.png"
+          width={200}
+          height={100}
+          alt="star"
+          priority
+          className="absolute w-4 top-64 right-20"
+        />
+      </div>
       <div className="grid grid-cols-7">
         <div className="col-span-2">&nbsp;</div>
         <div className="col-span-5 bg-njblue-500">

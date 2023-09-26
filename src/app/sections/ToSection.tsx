@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { Village } from "../utils/fonts";
 
@@ -6,9 +7,13 @@ export default function ToSection() {
     <div
       className={`grid grid-cols-1 ${Village.className} text-8xl text-white mt-14 place-items-center `}
     >
-      <a
+      <button
         className={`grid grid-cols-5 place-items-center bg-njblue-500 h-32 hover:text-neon-500`}
-        href="#project"
+        onClick={() => {
+          document
+            .getElementById("project")
+            ?.scrollIntoView({ behavior: "smooth" });
+        }}
       >
         <div className={`col-span-3`}>Project</div>
         <div className={`col-span-2 relative`}>
@@ -20,11 +25,15 @@ export default function ToSection() {
             className="select-none pointer-events-none object-contain h-32 -translate-y-10"
           />
         </div>
-      </a>
+      </button>
 
-      <a
+      <button
         className={`grid grid-cols-7 place-items-center mt-16 bg-njblue-500 h-32 hover:text-neon-500`}
-        href="#experience"
+        onClick={() => {
+          document
+            .getElementById("experience")
+            ?.scrollIntoView({ behavior: "smooth" });
+        }}
       >
         <div className={`col-span-2 relative`}>
           <Image
@@ -36,11 +45,15 @@ export default function ToSection() {
           />
         </div>
         <div className={`col-span-5`}>Experience</div>
-      </a>
+      </button>
 
-      <a
+      <button
         className={`grid grid-cols-5 place-items-center bg-njblue-500 h-32 mt-16 hover:text-neon-500`}
-        href="#award"
+        onClick={() => {
+          document
+            .getElementById("award")
+            ?.scrollIntoView({ behavior: "smooth" });
+        }}
       >
         <div className={`col-span-3`}>Award</div>
         <div className={`col-span-2 relative`}>
@@ -52,7 +65,7 @@ export default function ToSection() {
             className="select-none pointer-events-none object-contain h-32 -translate-y-10"
           />
         </div>
-      </a>
+      </button>
     </div>
   );
 }
