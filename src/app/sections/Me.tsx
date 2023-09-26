@@ -12,7 +12,7 @@ import {
 
 export default function Me() {
   return (
-    <section className="">
+    <section className="lg:max-w-4xl mx-auto">
       <div className="relative max-w-md mx-auto">
         <Image
           src="/assets/image/square_teal.png"
@@ -47,9 +47,9 @@ export default function Me() {
           className="absolute w-4 top-64 right-20"
         />
       </div>
-      <div className="grid grid-cols-7">
+      <div className="grid grid-cols-7 lg:bg-gray-100">
         <div className="col-span-2">&nbsp;</div>
-        <div className="col-span-5 bg-njblue-500">
+        <div className="col-span-5">
           <Image
             src="/assets/image/me.png"
             alt="me pic"
@@ -62,7 +62,7 @@ export default function Me() {
         <div></div>
         <div className="col-span-5">
           <div
-            className={`${IBMMono500.className} text-6xl -translate-y-28 -translate-x-3 relative select-none`}
+            className={`${IBMMono500.className} text-7xl lg:text-6xl xl:text-7xl -translate-y-28 -translate-x-3 relative select-none lg:translate-x-10 lg:-translate-y-36 z-20`}
           >
             <p className="absolute -translate-y-1 translate-x-0.5 text-white leading-none">
               <span className={Genty.className}>H</span>

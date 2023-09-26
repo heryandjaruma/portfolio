@@ -3,7 +3,7 @@ import { Village } from "../utils/fonts";
 
 export default function ProjectTitle() {
   return (
-    <div className="mt-10">
+    <div className="mt-10 border-t-2 border-dashed">
       <div className="relative flex">
         <div className="absolute">
           <Image
@@ -11,7 +11,7 @@ export default function ProjectTitle() {
             alt="stripe_mac"
             width={700}
             height={700}
-            className="select-none pointer-events-none w-screen h-36"
+            className="select-none pointer-events-none w-screen h-36 xl:h-52"
             priority
           />
         </div>
@@ -52,9 +52,9 @@ export default function ProjectTitle() {
           alt="star"
           className="w-9 top-20 left-64 absolute rotate-3 select-none pointer-events-none"
         />
-        <div className="absolute left-3 top-11 w-min">
+        <div className="absolute left-3 top-11 w-min lg:top-44 lg:left-10">
           <p
-            className={`${Village.className} text-7xl text-white -rotate-12 overflow py-2 overflow-hidden bg-njblue-500 px-2`}
+            className={`${Village.className} text-7xl text-white -rotate-12 overflow py-2 overflow-hidden bg-njblue-500 px-2 xl:text-8xl lg:-translate-y-20`}
           >
             Project
           </p>

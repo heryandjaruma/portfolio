@@ -40,11 +40,11 @@ export default function DaExperience() {
           width={1000}
           height={500}
           alt="experience_title"
-          className="w-full -rotate-12 col-start-1 col-span-4 -translate-y-14 select-none pointer-events-none"
+          className="w-full -rotate-12 col-start-1 col-span-4 -translate-y-14 select-none pointer-events-none md:w-96 lg:translate-x-10 sm:w-2/3"
           priority
         />
       </div>
-      <div className="gap-y-2 px-8">
+      <div className="gap-y-2 px-8 grid-cols-1 grid md:grid-cols-2 lg:grid-cols-3 md:place-items-start lg:px-32">
         <div className={`${Grotesk700.className} p-4 text-njblue-700`}>
           <p>&gt; LABORATORY ASSISTANT </p>
           <p className={`${Grotesk400.className} text-sm`}>BINUS UNIVERSITY</p>

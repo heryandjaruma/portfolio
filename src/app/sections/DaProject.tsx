@@ -15,7 +15,7 @@ export default function DaProject() {
 
   return (
     <div className="bg-gray-50">
-      <div className="grid grid-cols-2 place-items-center">
+      <div className="grid grid-cols-2 place-items-center xl:place-items-end">
         <button
           className="col-start-1 col-span-1 p-2 hover:scale-105 transition duration-100"
           onClick={() => handleOpen("kamifriend")}
@@ -25,7 +25,7 @@ export default function DaProject() {
             width={500}
             height={500}
             alt="folder_retro"
-            className="select-none pointer-events-none w-1/3 mx-auto"
+            className="select-none pointer-events-none w-2/5 mx-auto"
             priority
           />
           <p className="break-all w-full text-center">Kamifriend.app</p>
@@ -40,7 +40,7 @@ export default function DaProject() {
             width={500}
             height={500}
             alt="folder_retro"
-            className="select-none pointer-events-none w-1/3 mx-auto"
+            className="select-none pointer-events-none w-2/5 mx-auto"
             priority
           />
           <p className="break-all w-full text-center">Hikost.app</p>
@@ -49,7 +49,7 @@ export default function DaProject() {
 
       <div className="relative z-10">
         <div
-          className={`absolute overflow-y-auto z-10 ${
+          className={`absolute overflow-y-auto z-10 max-w-2xl md:left-20 lg:left-36 xl:left-64 ${
             isOpen == "kamifriend" ? "block" : "hidden"
           }`}
         >
@@ -152,7 +152,7 @@ export default function DaProject() {
 
       <div className="relative z-10">
         <div
-          className={`absolute overflow-y-auto z-10 ${
+          className={`absolute overflow-y-auto z-10 max-w-2xl md:right-0 ${
             isOpen == "hikost" ? "block" : "hidden"
           }`}
         >
@@ -236,7 +236,7 @@ export default function DaProject() {
       </div>
 
       {/* Second Section */}
-      <div className="grid grid-cols-2 place-items-center">
+      <div className="grid grid-cols-2 place-items-center xl:place-items-end">
         <button
           className="col-start-1 col-span-1 p-2 hover:scale-105 transition duration-100"
           onClick={() => handleOpen("kampoengkoena")}
@@ -246,7 +246,7 @@ export default function DaProject() {
             width={500}
             height={500}
             alt="folder_retro"
-            className="select-none pointer-events-none w-1/3 mx-auto"
+            className="select-none pointer-events-none w-2/5 mx-auto"
             priority
           />
           <p className="break-all w-full text-center">KampoengKoena.prot</p>
@@ -260,7 +260,7 @@ export default function DaProject() {
             width={500}
             height={500}
             alt="folder_retro"
-            className="select-none pointer-events-none w-1/3 mx-auto"
+            className="select-none pointer-events-none w-2/5 mx-auto"
             priority
           />
           <p className="break-all w-full text-center">Hitchhiker.web</p>
@@ -269,7 +269,7 @@ export default function DaProject() {
 
       <div className="relative z-10">
         <div
-          className={`absolute overflow-y-auto z-10 ${
+          className={`absolute overflow-y-auto z-10 max-w-2xl md:left-20 lg:left-36 xl:left-64 ${
             isOpen == "kampoengkoena" ? "block" : "hidden"
           }`}
         >
@@ -310,10 +310,10 @@ export default function DaProject() {
                 <div className="col-span-3 mt-4">
                   <p>Description:</p>
                   <p>
-                    This prototye showcases Kampoeng Koena&apos;s unique
-                    features and attractions as newly founded tourism village in
-                    Malang-East Java, making it easy for visitors to plan their
-                    trip and learn about the village.
+                    This prototype showcases Kampoeng Koena&apos;s unique
+                    features and attractions as a newly founded tourism village
+                    in Malang, East Java. It makes it easy for visitors to plan
+                    their trip and learn about the village.
                   </p>
                 </div>
                 <div className="col-span-3 mt-4">
@@ -354,7 +354,7 @@ export default function DaProject() {
 
       <div className="relative z-10">
         <div
-          className={`absolute overflow-y-auto z-10 ${
+          className={`absolute overflow-y-auto z-10 max-w-2xl md:right-0  ${
             isOpen == "hitchhiker" ? "block" : "hidden"
           }`}
         >
@@ -394,7 +394,12 @@ export default function DaProject() {
                 </div>
                 <div className="col-span-3 mt-4">
                   <p>Description:</p>
-                  <p>Right cost in your kost.</p>
+                  <p>
+                    Hitchhiker is a PHP-based Learning Management System (LMS)
+                    that utilizes middleware and login functionality from
+                    Laravel. The project also uses Bootstrap 5 to design the
+                    layout beautifully.
+                  </p>
                 </div>
                 <div className="col-span-3 mt-4">
                   <p>Link:</p>
@@ -433,7 +438,7 @@ export default function DaProject() {
       </div>
 
       {/* Third Section */}
-      <div className="grid grid-cols-2 place-items-center">
+      <div className="grid grid-cols-2 place-items-center xl:place-items-end">
         <button
           className="col-start-1 col-span-1 p-2 hover:scale-105 transition duration-100"
           onClick={() => handleOpen("portfolio")}
@@ -443,7 +448,7 @@ export default function DaProject() {
             width={500}
             height={500}
             alt="folder_retro"
-            className="select-none pointer-events-none w-1/3 mx-auto"
+            className="select-none pointer-events-none w-2/5 mx-auto"
             priority
           />
           <p className="break-all w-full text-center">Portfolio.web</p>
@@ -457,7 +462,7 @@ export default function DaProject() {
             width={500}
             height={500}
             alt="folder_retro"
-            className="select-none pointer-events-none w-1/3 mx-auto"
+            className="select-none pointer-events-none w-2/5 mx-auto"
             priority
           />
           <p className="break-all w-full text-center">SeldnetDCASE.py</p>
@@ -466,7 +471,7 @@ export default function DaProject() {
 
       <div className="relative z-10">
         <div
-          className={`absolute overflow-y-auto z-10 ${
+          className={`absolute overflow-y-auto z-10 max-w-2xl md:left-20 lg:left-36 xl:left-64 ${
             isOpen == "portfolio" ? "block" : "hidden"
           }`}
         >
@@ -507,11 +512,11 @@ export default function DaProject() {
                 <div className="col-span-3 mt-4">
                   <p>Description:</p>
                   <p>
-                    This project is a meant to showcase my projects as well as
-                    experience. The inspiration comes from NewJeans whose music
-                    and style I love. My intention with the design is to make it
-                    beautifully chaotic with metallic accent. My other
-                    inspiration is also Apple&apos;s retro design.
+                    This web portfolio showcases my work, drawing inspiration
+                    from NewJeans&apos; music and style, as well as Apple&apos;s
+                    retro design. I aim to create a beautifully chaotic look
+                    with metallic/plastic accents and a blue-themed color
+                    scheme, similar to designs in the K-pop industry.
                   </p>
                 </div>
                 <div className="col-span-3 mt-4">
@@ -552,7 +557,7 @@ export default function DaProject() {
 
       <div className="relative z-10">
         <div
-          className={`absolute overflow-y-auto z-10 ${
+          className={`absolute overflow-y-auto z-10 max-w-2xl md:right-0 ${
             isOpen == "seldnet" ? "block" : "hidden"
           }`}
         >
@@ -592,7 +597,11 @@ export default function DaProject() {
                 </div>
                 <div className="col-span-3 mt-4">
                   <p>Description:</p>
-                  <p>Is a sound detection project.</p>
+                  <p>
+                    This AI research project detects sound in 4-channel audio
+                    and numpy arrays. My team and I achieved ~70% accuracy, an
+                    improvement over our previous ~60%.
+                  </p>
                 </div>
                 <div className="col-span-3 mt-4">
                   <p>Link:</p>
@@ -635,7 +644,7 @@ export default function DaProject() {
         alt="stripe_mac"
         width={700}
         height={700}
-        className="select-none pointer-events-none w-screen h-36 -translate-y-3"
+        className="select-none pointer-events-none w-screen h-36 -translate-y-3 lg:h-48"
         priority
       />
     </div>
