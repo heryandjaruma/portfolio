@@ -177,10 +177,10 @@ export default function DaProject() {
               <div className="col-span-3 mt-4">
                 <p>Description:</p>
                 <p>
-                  Hikost is the app every 'anak kos' needs to keep their money
-                  in check. When you splurge, this app gives you a friendly
-                  scolding, just like your mom would, so you stay on top of your
-                  budget.
+                  Hikost is the app every &apos;anak kos&apos; needs to keep
+                  their money in check. When you splurge, this app gives you a
+                  friendly scolding, just like your mom would, so you stay on
+                  top of your budget.
                 </p>
               </div>
               <div className="col-span-3 mt-4">
