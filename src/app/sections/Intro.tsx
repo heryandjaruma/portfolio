@@ -22,8 +22,8 @@ export default function Intro() {
         <p className={Grotesk400.className}>
           I&apos;m <span className="opacity-20">He</span>
           <span className="">ryan</span>. <br />
-          I'm currently in my junior year. My interests are mobile development
-          and cloud. You can find some of my works in this page.
+          I&apos;m currently in my junior year. My interests are mobile
+          development and cloud. You can find some of my works in this page.
         </p>
         <p className="mt-2 lg:mt-6">
           To view my full profile, visit my{" "}
