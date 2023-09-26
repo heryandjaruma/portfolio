@@ -10,6 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         njblue: {
+          100: '#EDEFF9',
+          200: '#CCCFEA',
           500: '#5C64A6',
           700: '#212C7E'
         },

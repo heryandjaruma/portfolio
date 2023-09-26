@@ -18,9 +18,12 @@ export default function DaProject() {
   const handleOpen6 = () => setIsOpen6(!isOpen6);
 
   return (
-    <div>
-      <div className="grid grid-cols-2 bg-neon-100 place-items-center">
-        <button className="col-start-1 col-span-1 p-2" onClick={handleOpen1}>
+    <div className="bg-gray-50">
+      <div className="grid grid-cols-2 place-items-center">
+        <button
+          className="col-start-1 col-span-1 p-2 hover:scale-105 transition duration-100"
+          onClick={handleOpen1}
+        >
           <Image
             src={`/assets/image/folder_retro.png`}
             width={500}
@@ -31,7 +34,10 @@ export default function DaProject() {
           />
           <p className="break-all w-full text-center">Kamifriend.app</p>
         </button>
-        <button className="" onClick={handleOpen2}>
+        <button
+          className="p-2 hover:scale-105 transition duration-100"
+          onClick={handleOpen2}
+        >
           <Image
             src={`/assets/image/folder_retro.png`}
             width={500}
@@ -77,7 +83,12 @@ export default function DaProject() {
               </div>
               <div className="col-span-3 mt-4">
                 <p>Description:</p>
-                <p>Kamifriend is an app that won 2 competitions.</p>
+                <p>
+                  Kamifriend is an app that has won two competitions, both in
+                  1st place. It is an app designed to assist Indonesian UMKM in
+                  finding partnerships, gaining business insights, and hiring
+                  freelancers to help grow their businesses.
+                </p>
               </div>
               <div className="col-span-3 mt-4">
                 <p>Link:</p>
@@ -165,7 +176,12 @@ export default function DaProject() {
               </div>
               <div className="col-span-3 mt-4">
                 <p>Description:</p>
-                <p>Right cost in your kost.</p>
+                <p>
+                  Hikost is the app every 'anak kos' needs to keep their money
+                  in check. When you splurge, this app gives you a friendly
+                  scolding, just like your mom would, so you stay on top of your
+                  budget.
+                </p>
               </div>
               <div className="col-span-3 mt-4">
                 <p>Link:</p>
@@ -203,8 +219,11 @@ export default function DaProject() {
       </div>
 
       {/* Second Section */}
-      <div className="grid grid-cols-2 bg-neon-100 place-items-center">
-        <button className="col-start-1 col-span-1 p-2" onClick={handleOpen3}>
+      <div className="grid grid-cols-2 place-items-center">
+        <button
+          className="col-start-1 col-span-1 p-2 hover:scale-105 transition duration-100"
+          onClick={handleOpen3}
+        >
           <Image
             src={`/assets/image/folder_retro.png`}
             width={500}
@@ -215,7 +234,10 @@ export default function DaProject() {
           />
           <p className="break-all w-full text-center">KampoengKoena.prot</p>
         </button>
-        <button className="" onClick={handleOpen4}>
+        <button
+          className="p-2 hover:scale-105 transition duration-100"
+          onClick={handleOpen4}
+        >
           <Image
             src={`/assets/image/folder_retro.png`}
             width={500}
@@ -374,8 +396,11 @@ export default function DaProject() {
       </div>
 
       {/* Third Section */}
-      <div className="grid grid-cols-2 bg-neon-100 place-items-center">
-        <button className="col-start-1 col-span-1 p-2" onClick={handleOpen5}>
+      <div className="grid grid-cols-2 place-items-center">
+        <button
+          className="col-start-1 col-span-1 p-2 hover:scale-105 transition duration-100"
+          onClick={handleOpen5}
+        >
           <Image
             src={`/assets/image/folder_retro.png`}
             width={500}
@@ -386,7 +411,10 @@ export default function DaProject() {
           />
           <p className="break-all w-full text-center">Portfolio.web</p>
         </button>
-        <button className="" onClick={handleOpen6}>
+        <button
+          className="p-2 hover:scale-105 transition duration-100"
+          onClick={handleOpen6}
+        >
           <Image
             src={`/assets/image/folder_retro.png`}
             width={500}
@@ -544,6 +572,14 @@ export default function DaProject() {
           </div>
         </div>
       </div>
+      <Image
+        src={`/assets/image/stripe_mac_retro_flip.png`}
+        alt="stripe_mac"
+        width={700}
+        height={700}
+        className="select-none pointer-events-none w-screen h-36 -translate-y-3"
+        priority
+      />
     </div>
   );
 }

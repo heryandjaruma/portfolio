@@ -3,7 +3,7 @@ import { IBMMono500 } from "../utils/fonts";
 
 export default function Me() {
   return (
-    <section className="bg-neon-100">
+    <section className="">
       <div className="grid grid-cols-7">
         <div className="col-span-2">&nbsp;</div>
         <div className="col-span-5 bg-njblue-500">
