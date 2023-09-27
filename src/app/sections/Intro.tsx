@@ -17,13 +17,12 @@ export default function Intro() {
           <span className={HelveticaRoman.className}>n</span>
           <span className={Bello.className}>t</span>
           <span className={HelveticaRoman.className}>io</span>
-          <span className={Alagard.className}>n</span>
+          <span className={Alagard.className}>n!</span>
         </p>
         <p className={Grotesk400.className}>
-          I&apos;m <span className="opacity-20">He</span>
-          <span className="">ryan</span>. <br />
-          I&apos;m currently in my junior year. My interests are mobile
-          development and cloud. You can find some of my works in this page.
+          My name is <span className="opacity-30">He</span>
+          <span className="">ryan</span> and I&apos;m a junior CS student. You
+          can find some of my works in this page.
         </p>
         <p className="mt-2 lg:mt-6">
           To view my full profile, visit my{" "}
@@ -46,6 +45,18 @@ export default function Intro() {
             rel="noopener noreferrer"
           >
             GitHub
+          </a>
+          .
+        </p>
+        <p className={Grotesk400.className}>
+          Hit me up on{" "}
+          <a
+            className="bg-neon-500 px-1 underline text-njblue-700"
+            target="_blank"
+            href="https://www.instagram.com/heryan612/"
+            rel="noopener noreferrer"
+          >
+            Insta
           </a>
           .
         </p>

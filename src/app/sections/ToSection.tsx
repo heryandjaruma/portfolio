@@ -9,7 +9,7 @@ export default function ToSection() {
         className={`grid grid-cols-1 ${Village.className} text-8xl text-white mt-14 lg:mt-0 place-items-center lg:max-w-6xl mx-auto`}
       >
         <button
-          className={`grid grid-cols-5 place-items-center bg-njblue-500 h-32 hover:text-neon-500`}
+          className={`grid grid-cols-5 place-items-center bg-njblue-500 h-32 hover:text-neon-500 lg:border-2 border-white`}
           onClick={() => {
             document
               .getElementById("project")
@@ -29,7 +29,7 @@ export default function ToSection() {
         </button>
 
         <button
-          className={`grid grid-cols-7 place-items-center mt-16 bg-njblue-500 h-32 hover:text-neon-500`}
+          className={`grid grid-cols-7 place-items-center mt-16 bg-njblue-500 h-32 hover:text-neon-500 lg:border-2 border-white`}
           onClick={() => {
             document
               .getElementById("experience")
@@ -49,7 +49,7 @@ export default function ToSection() {
         </button>
 
         <button
-          className={`grid grid-cols-5 place-items-center bg-njblue-500 h-32 mt-16 hover:text-neon-500`}
+          className={`grid grid-cols-5 place-items-center bg-njblue-500 h-32 mt-16 hover:text-neon-500 lg:border-2 border-white`}
           onClick={() => {
             document
               .getElementById("award")

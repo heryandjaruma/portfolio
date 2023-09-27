@@ -6,9 +6,24 @@ export default function DaAward() {
     <div className="lg:grid lg:grid-cols-2 lg:place-items-center bg-njblue-500">
       <div className="relative h-20 xl:h-fit">
         <div className="grid grid-cols-3 place-items-center">
-          <div className="col-span-1"></div>
+          <div className="col-span-1 relative">
+            <Image
+              src="/assets/image/me_hanbok.png"
+              width={600}
+              height={600}
+              alt="me_hanbok"
+              className="block lg:translate-x-14 -rotate-12 lg:opacity-75 w-44 opacity-30 lg:translate-y-0 translate-y-64 translate-x-32  "
+            />
+            <Image
+              src="/assets/image/me_ydp.png"
+              width={600}
+              height={600}
+              alt="me_hanbok"
+              className="block absolute lg:top-8 w-52 rotate-12 left-96 lg:opacity-60 lg:left-72 opacity-30 top-52"
+            />
+          </div>
           <div
-            className={`relative rotate-6 ${Cotton.className} -translate-y-10 lg:-translate-y-16 text-6xl md:text-7xl lg:text-8xl lg:-translate-x-36`}
+            className={`relative rotate-6 ${Cotton.className} -translate-y-44 lg:-translate-y-16 text-6xl md:text-7xl lg:text-8xl lg:-translate-x-36`}
           >
             <p className={`text-white absolute opacity-20 left-2`}>Award</p>
             <p className={`text-white absolute top-4`}>Award</p>

@@ -62,7 +62,7 @@ export default function Me() {
         <div></div>
         <div className="col-span-5">
           <div
-            className={`${IBMMono500.className} text-7xl lg:text-6xl xl:text-7xl -translate-y-28 -translate-x-3 relative select-none lg:translate-x-10 lg:-translate-y-36 z-20`}
+            className={`${IBMMono500.className} text-7xl lg:text-6xl xl:text-8xl -translate-y-28 -translate-x-3 relative select-none lg:translate-x-10 lg:-translate-y-36 z-20 xl:-translate-y-44`}
           >
             <p className="absolute -translate-y-1 translate-x-0.5 text-white leading-none">
               <span className={Genty.className}>H</span>

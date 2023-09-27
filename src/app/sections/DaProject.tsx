@@ -534,14 +534,14 @@ export default function DaProject() {
                   <p>Gallery:</p>
                   <div className="grid grid-cols-2 place-items-center gap-2">
                     <Image
-                      src="/assets/image/kampoengkoena/1.jpg"
+                      src="/assets/image/portfolio/1.png"
                       width={700}
                       height={700}
                       alt="img"
                       className="object-cover border-2 h-full aspect-[4/3]"
                     />
                     <Image
-                      src="/assets/image/kampoengkoena/2.jpg"
+                      src="/assets/image/portfolio/2.png"
                       width={700}
                       height={700}
                       alt="img"
