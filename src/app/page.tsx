@@ -1,28 +1,6 @@
-import {
-  Alagard,
-  Bello,
-  ChicagoLight,
-  Cotton,
-  EBGaramond400,
-  FairfaxItalic,
-  Genty,
-  Gliker,
-  Grotesk400,
-  Grotesk700,
-  HelveticaRoman,
-  IBMMono500,
-  Mushy,
-  Ninety,
-  SansFrans,
-  SansFransBold,
-  ToonyLineLine,
-  Ubuntu,
-  Victor,
-  Village,
-} from "../app/utils/fonts";
+import { SansFrans } from "../app/utils/fonts";
 import Image from "next/image";
 import Me from "./sections/Me";
-import MeLink from "./sections/MeLink";
 import ToSection from "./sections/ToSection";
 import ProjectTitle from "./sections/ProjectTitle";
 import DaProject from "./sections/DaProject";

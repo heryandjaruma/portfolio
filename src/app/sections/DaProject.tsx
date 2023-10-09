@@ -18,6 +18,131 @@ export default function DaProject() {
       <div className="grid grid-cols-2 place-items-center xl:place-items-end">
         <button
           className="col-start-1 col-span-1 p-2 hover:scale-105 transition duration-100"
+          onClick={() => handleOpen("banyoehirup")}
+        >
+          <Image
+            src={`/assets/image/folder_retro.png`}
+            width={500}
+            height={500}
+            alt="folder_retro"
+            className="select-none pointer-events-none w-2/5 mx-auto"
+            priority
+          />
+          <p className="break-all w-full text-center">BanyoeHirup.web</p>
+        </button>
+
+        {/* <button
+          className="p-2 hover:scale-105 transition duration-100"
+          onClick={() => handleOpen("hikost")}
+        >
+          <Image
+            src={`/assets/image/folder_retro.png`}
+            width={500}
+            height={500}
+            alt="folder_retro"
+            className="select-none pointer-events-none w-2/5 mx-auto"
+            priority
+          />
+          <p className="break-all w-full text-center">Hikost.app</p>
+        </button> */}
+      </div>
+
+      <div className="relative z-10">
+        <div
+          className={`absolute overflow-y-auto z-10 max-w-2xl md:left-20 lg:left-36 xl:left-64 ${
+            isOpen == "banyoehirup" ? "block" : "hidden"
+          }`}
+        >
+          <div
+            className="grid grid-cols-1 border-2 border-double border-gray-500 rounded-md m-1 shadow-lg"
+            id="kamifriend"
+          >
+            <div className="grid grid-cols-3 bg-gray-200">
+              <button
+                className="my-auto px-1"
+                onClick={() => handleOpen("banyoehirup")}
+              >
+                <Image
+                  src={`/assets/image/exit_retro.png`}
+                  width={300}
+                  height={300}
+                  alt="exit_btt"
+                  className="w-4"
+                />
+              </button>
+              <p className="w-full text-center">BanyoeHirup.web</p>
+              <div></div>
+              <div
+                className={`col-span-3 p-1 bg-white ${ChicagoBold.className} grid grid-cols-3 text-sm col-start-1`}
+              >
+                <div>
+                  <p>Name:</p>
+                  <p>BanyoeHirup</p>
+                </div>
+                <div>
+                  <p>Type:</p>
+                  <p>Web</p>
+                </div>
+                <div>
+                  <p>Techstack:</p>
+                  <p>NextJS, Figma, Vercel, PorkBun</p>
+                </div>
+                <div className="col-span-3 mt-4">
+                  <p>Description:</p>
+                  <p>
+                    BanyoeHirup is an interactive web-based program targeting
+                    middle schoolers to learn about Climate Change. This web app
+                    was submitted to NASA Space Apps 2023 Challenge.
+                  </p>
+                </div>
+                <div className="col-span-3 mt-4">
+                  <p>Link:</p>
+                  <a
+                    target="_blank"
+                    href="https://bjir.earth"
+                    rel="noopener noreferrer"
+                    className="underline"
+                  >
+                    Live Web
+                  </a>
+                  {", "}
+                  <a
+                    target="_blank"
+                    href="https://github.com/heryandjaruma/banyoehirup"
+                    rel="noopener noreferrer"
+                    className="underline"
+                  >
+                    Github repo
+                  </a>
+                </div>
+                <div className="col-span-3 mt-4">
+                  <p>Gallery:</p>
+                  <div className="grid grid-cols-2 place-items-center gap-2">
+                    <Image
+                      src="/assets/image/bjir/bjir_1.png"
+                      width={700}
+                      height={700}
+                      alt="img"
+                      className="object-cover border-2 h-full aspect-[4/3]"
+                    />
+                    <Image
+                      src="/assets/image/bjir/bjir_2.png"
+                      width={700}
+                      height={700}
+                      alt="img"
+                      className="object-cover border-2 h-full aspect-[4/3]"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-2 place-items-center xl:place-items-end">
+        <button
+          className="col-start-1 col-span-1 p-2 hover:scale-105 transition duration-100"
           onClick={() => handleOpen("kamifriend")}
         >
           <Image
