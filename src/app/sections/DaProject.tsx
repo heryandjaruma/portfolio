@@ -646,16 +646,15 @@ export default function DaProject() {
                 </div>
                 <div className="col-span-3 mt-4">
                   <p>Link:</p>
-                  {/* <a
+                  <a
                     target="_blank"
-                    href="https://www.figma.com/proto/v6DPDEZjKhXPhPxoM63p1u/Prototype?node-id=8-21&starting-point-node-id=8%3A21&mode=design&t=ShmrRYntCTH4WtbE-1"
+                    href="https://github.com/heryandjaruma/portfolio-update"
                     rel="noopener noreferrer"
                     className="underline"
                   >
                     Figma prototype
-                  </a> */}
-                  I keep this project repo private. Reach out to me if you want
-                  it.
+                  </a>
+                  Repo
                 </div>
                 <div className="col-span-3 mt-4">
                   <p>Gallery:</p>
