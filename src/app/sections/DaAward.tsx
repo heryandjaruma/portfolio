@@ -75,6 +75,50 @@ export default function DaAward() {
 
             <div className="border-2 border-white rounded-b-lg">
               <div className="px-3 py-5 text-njblue-700 grid grid-cols-1 gap-y-4">
+                {" "}
+                <div className=" bg-gray-50 px-3 pt-2 pb-1 ml-3 mr-5 rounded-xl -translate-x-1 text-sm relative">
+                  <Image
+                    src={`/assets/image/reaction_bubble.png`}
+                    width={200}
+                    height={200}
+                    alt="cap"
+                    className="absolute w-10 -right-4 -top-3"
+                    priority
+                  />
+                  <Image
+                    src={`/assets/image/first_place.png`}
+                    width={200}
+                    height={200}
+                    alt="cap"
+                    className="absolute w-5 -right-1 -top-1"
+                    priority
+                  />
+                  <p className={SansFransBold.className}>
+                    Status:{" "}
+                    <span className={SansFrans.className}>
+                      Global Nomination 1 - 2023 Space Apps Challenge
+                    </span>
+                  </p>
+                  <p className={SansFransBold.className}>
+                    Giver:{" "}
+                    <span className={SansFrans.className}>
+                      NASA Space Apps Jakarta
+                    </span>
+                  </p>
+                  <p
+                    className={`w-full text-end text-xs ${SansFransBold.className} text-gray-400`}
+                  >
+                    Received 10/23
+                  </p>
+                  <Image
+                    src={`/assets/image/bubble_tail.png`}
+                    width={200}
+                    height={200}
+                    alt="cap"
+                    className="absolute w-5 -left-[7px] bottom-0 -z-10"
+                    priority
+                  />
+                </div>
                 <div className=" bg-gray-50 px-3 pt-2 pb-1 ml-3 mr-5 rounded-xl -translate-x-1 text-sm relative">
                   <Image
                     src={`/assets/image/reaction_bubble.png`}
@@ -118,7 +162,6 @@ export default function DaAward() {
                     priority
                   />
                 </div>
-
                 <div className=" bg-gray-50 px-3 pt-2 pb-1 ml-3 mr-5 rounded-xl -translate-x-1 text-sm relative">
                   <Image
                     src={`/assets/image/reaction_bubble.png`}
@@ -162,7 +205,6 @@ export default function DaAward() {
                     priority
                   />
                 </div>
-
                 <div className=" bg-gray-50 px-3 pt-2 pb-1 ml-3 mr-5 rounded-xl -translate-x-1 text-sm relative">
                   <Image
                     src={`/assets/image/reaction_bubble.png`}
@@ -206,7 +248,6 @@ export default function DaAward() {
                     priority
                   />
                 </div>
-
                 <div className=" bg-gray-50 px-3 pt-2 pb-1 ml-3 mr-5 rounded-xl -translate-x-1 text-sm relative">
                   <Image
                     src={`/assets/image/reaction_bubble.png`}
@@ -250,7 +291,6 @@ export default function DaAward() {
                     priority
                   />
                 </div>
-
                 <div className=" bg-gray-50 px-3 pt-2 pb-1 ml-3 mr-5 rounded-xl -translate-x-1 text-sm relative">
                   <Image
                     src={`/assets/image/reaction_bubble.png`}
@@ -294,7 +334,6 @@ export default function DaAward() {
                     priority
                   />
                 </div>
-
                 <div className=" bg-gray-50 px-3 pt-2 pb-1 ml-3 mr-5 rounded-xl -translate-x-1 text-sm relative">
                   <Image
                     src={`/assets/image/reaction_bubble.png`}
