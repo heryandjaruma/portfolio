@@ -652,9 +652,8 @@ export default function DaProject() {
                     rel="noopener noreferrer"
                     className="underline"
                   >
-                    Figma prototype
+                    Repo
                   </a>
-                  Repo
                 </div>
                 <div className="col-span-3 mt-4">
                   <p>Gallery:</p>
