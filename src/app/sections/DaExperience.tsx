@@ -45,48 +45,34 @@ export default function DaExperience() {
         />
       </div>
       <div className="gap-y-2 px-8 grid-cols-1 grid md:grid-cols-2 lg:grid-cols-3 md:place-items-start lg:px-32">
+      <div className={`${Grotesk700.className} p-4 text-njblue-700`}>
+          <p>Backend Developer Intern</p>
+          <p className={`${Grotesk400.className} text-sm`}>Blibli, Jakarta</p>
+          <p className={`${Ubuntu.className} text-sm`}>FEB 2024 - Present</p>
+        </div>
         <div className={`${Grotesk700.className} p-4 text-njblue-700`}>
-          <p>&gt; LABORATORY ASSISTANT </p>
-          <p className={`${Grotesk400.className} text-sm`}>BINUS UNIVERSITY</p>
+          <p>Laboratory Assistant </p>
+          <p className={`${Grotesk400.className} text-sm`}>Binus University</p>
           <p className={`${Ubuntu.className} text-sm`}>FEB 2022 - FEB 2023</p>
         </div>
         <div className={`${Grotesk700.className} p-4 text-njblue-700`}>
-          <p>&gt; TEACHING ASSISTANT </p>
-          <p className={`${Grotesk400.className} text-sm`}>덕성여자대학교</p>
+          <p>Teaching Assistant </p>
+          <p className={`${Grotesk400.className} text-sm`}>덕성여자대학교, Seoul</p>
           <p className={`${Ubuntu.className} text-sm`}>MAR 2023 - JUN 2023</p>
         </div>
         <div className={`${Grotesk700.className} p-4 text-njblue-700`}>
-          <p>&gt; TRAINER </p>
+          <p>Marketing Team Associate </p>
           <p className={`${Grotesk400.className} text-sm`}>
-            HIMTI BINUS UNIVERSITY
-          </p>
-          <p className={`${Ubuntu.className} text-sm`}>SEP 2022</p>
-        </div>
-        <div className={`${Grotesk700.className} p-4 text-njblue-700`}>
-          <p>&gt; ACTIVIST </p>
-          <p className={`${Grotesk400.className} text-sm`}>BNCC</p>
-          <p className={`${Ubuntu.className} text-sm`}>NOV 2021 - MAY 2022</p>
-        </div>
-        <div className={`${Grotesk700.className} p-4 text-njblue-700`}>
-          <p>&gt; MARKETING TEAM ASSOCIATE </p>
-          <p className={`${Grotesk400.className} text-sm`}>
-            SEJUTACITA INDONESIA
+            Sejutacita Indonesia (Dealls.com)
           </p>
           <p className={`${Ubuntu.className} text-sm`}>APR 2021 - OCT 2021</p>
         </div>
         <div className={`${Grotesk700.className} p-4 text-njblue-700`}>
-          <p>&gt; PRESIDENT </p>
+          <p>President </p>
           <p className={`${Grotesk400.className} text-sm`}>
-            SMAK 1 BPK PENABUR BANDUNG
+            SMAK 1 BPK Penabur, Bandung
           </p>
           <p className={`${Ubuntu.className} text-sm`}>SEP 2019 - AUG 2020</p>
-        </div>
-        <div className={`${Grotesk700.className} p-4 text-njblue-700`}>
-          <p>&gt; STAFF </p>
-          <p className={`${Grotesk400.className} text-sm`}>
-            SMAK 1 BPK PENABUR BANDUNG
-          </p>
-          <p className={`${Ubuntu.className} text-sm`}>NOV 2018 - AUG 2019</p>
         </div>
       </div>
     </div>
