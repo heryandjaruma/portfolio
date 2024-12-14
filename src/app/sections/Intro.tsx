@@ -53,7 +53,7 @@ export default function Intro() {
           <a
             className="bg-neon-500 px-1 underline text-njblue-700"
             target="_blank"
-            href="https://www.instagram.com/heryan612/"
+            href="https://www.instagram.com/heryberian"
             rel="noopener noreferrer"
           >
             Insta
