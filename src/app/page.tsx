@@ -51,7 +51,7 @@ export default function Home() {
         <div
           className={`w-full text-center bg-njblue-500 p-4 text-white ${SansFrans.className} text-xs`}
         >
-          <p>&copy; 2023 Ryan</p>
+          <p>&copy; {new Date().getFullYear()} Ryan</p>
         </div>
       </main>
     </div>
